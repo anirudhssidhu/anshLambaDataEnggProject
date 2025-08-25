@@ -1,0 +1,9 @@
+{
+	"name": "adf-cars-ansh-lamba",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4ebce00c-2876-453d-887e-52365c2730ab",
+		"tenantId": "3876aa3e-72b1-4dbc-a220-c34b8b4fcf48"
+	}
+}
