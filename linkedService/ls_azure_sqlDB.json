@@ -1,0 +1,18 @@
+{
+	"name": "ls_azure_sqlDB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Connect to the carsales DB via anshlambacarsalesserver",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "anshlambacarsalesserver.database.windows.net",
+			"database": "carsales",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adminansh",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRBNjk5Rjk2LTY1N0EtNEE0OS05NUQ5LTIyNEYxMDk4MDYwQ183YTE4NDk4MS1mNDg0LTQ3ODEtYjU0MC01MzNlZGY2ZGIxZmYiDQp9"
+		}
+	}
+}
